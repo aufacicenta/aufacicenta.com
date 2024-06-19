@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 115%;
     background: var(--color-background);
     opacity: 1;
@@ -29,7 +29,20 @@
     position: relative;
 
     &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 450px;
+      margin-bottom: $navbar-height;
       padding-top: $navbar-height * 3;
+
+      &-right {
+        text-align: right;
+      }
+
+      &-center {
+        text-align: center;
+      }
 
       &-highlight {
         span {

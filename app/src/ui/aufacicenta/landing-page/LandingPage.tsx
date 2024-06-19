@@ -51,7 +51,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
     });
 
     const split = document.querySelectorAll(".intro-text");
-
     const masks: HTMLSpanElement[] = [];
 
     const runTextAppearAnimation = () => {
@@ -71,7 +70,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
             markers: false,
             scrub: 0.5,
             start: `-=700`,
-            end: "bottom center",
+            end: "bottom-=300 center",
           },
         });
       });
@@ -154,14 +153,49 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className }) => {
                 </div>
               </Grid.Col>
             </Grid.Row>
-            {/* <Grid.Row justify="end">
-              <Grid.Col lg={6}>
-                <Typography.Headline2>We Bring In The Resources</Typography.Headline2>
-                <Typography.Headline4>
-                  We gather the optimal people and skills to make your project succeed.
-                </Typography.Headline4>
+          </div>
+          <div className={clsx(styles["landing-page__about--content"], styles["landing-page__about--content-right"])}>
+            <Grid.Row justify="end">
+              <Grid.Col lg={5}>
+                <Typography.Headline2 className={clsx("intro-text")}>Wallet Is The New Auth</Typography.Headline2>
+                <Typography.Headline4 className={clsx("intro-text")}>We understand decentralized.</Typography.Headline4>
+                <Typography.TextLead className={clsx("intro-text")} flat>
+                  Encrypted signature verifications.
+                </Typography.TextLead>
+                <Typography.Description className={clsx("intro-text")}>
+                  Verify that a user owns their digital stuff and give them special access.
+                </Typography.Description>
+                <div className={clsx(styles["landing-page__about--content-button"], "intro-text")}>
+                  <Button variant="outlined">Try Out Our Discord Plugin</Button>
+                </div>
               </Grid.Col>
-            </Grid.Row> */}
+            </Grid.Row>
+          </div>
+          <div className={clsx(styles["landing-page__about--content"], styles["landing-page__about--content-center"])}>
+            <Grid.Row justify="center">
+              <Grid.Col lg={8}>
+                <Typography.Headline2 className={clsx("intro-text")}>
+                  Web3 Creates Unprecedented Business Models
+                </Typography.Headline2>
+                <Typography.Headline4 className={clsx("intro-text")}>
+                  Event driven dApps automate income and user earnings distribution.
+                </Typography.Headline4>
+                <Typography.TextLead className={clsx("intro-text")}>
+                  PromptWars.xyz, our signature game, <br />
+                  is a fully automated game merging Ethereum and AI.
+                </Typography.TextLead>
+                <Typography.Description className={clsx("intro-text")}>
+                  Players register for each round with an ERC20 transfer, <br />
+                  the game automatically determines the winners and distributes the funds accordingly.
+                </Typography.Description>
+                <Typography.Description className={clsx("intro-text")}>
+                  0 human interaction over the results and payoffs.
+                </Typography.Description>
+                <div className={clsx(styles["landing-page__about--content-button"], "intro-text")}>
+                  <Button variant="outlined">Play Prompt Wars</Button>
+                </div>
+              </Grid.Col>
+            </Grid.Row>
           </div>
         </section>
       </Grid.Container>

@@ -5,7 +5,9 @@ export type Styles = {
   "landing-page__about--aufa-page-path-trigger": string;
   "landing-page__about--content": string;
   "landing-page__about--content-button": string;
+  "landing-page__about--content-center": string;
   "landing-page__about--content-highlight": string;
+  "landing-page__about--content-right": string;
   "landing-page__hero": string;
   "landing-page__hero--subtitle": string;
   "landing-page__intro--desktop": string;
