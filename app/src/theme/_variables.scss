@@ -1,3 +1,4 @@
+/* stylelint-disable function-name-case */
 /* stylelint-disable annotation-no-unknown */
 $footer-height: 77px !default;
 $footer-height-mobile: 48px !default;
@@ -114,9 +115,6 @@ $shadow-fluffy: 0 17px 22px 0 var(--color-black) !default;
 $shadow-input: 0 1px 1px var(--color-dark-5) !default;
 $shadow-select: 0 2px 2px var(--color-dark-5) !default;
 
-$shadow-sm: 0 1px 1px 0 rgb(var(--color-dark-1) 0.05) !default;
-$shadow-md: 0 2px 2px 0 rgb(var(--color-dark-1) 0.05) !default;
-
 $border: 1px solid var(--color-dark-5) !default;
 $border-disabled: 1px solid var(--color-dark-1) !default;
 $border-brand: 1px solid var(--color-primary) !default;
@@ -128,9 +126,9 @@ $border-divider-inverse: 1px solid #3b3e42 !default;
 $border-light: 1px solid var(--color-dark-3) !default;
 
 $box-shadow-default-width: 2px !default;
-$box-shadow-border: 0 1px 1px rgb(9 10 11 / 5%) !default;
+$box-shadow-border: 0 1px 1px RGB(9 10 11 / 5%) !default;
 $box-shadow-border-large: 0 0 0 $box-shadow-default-width var(--color-primary)-bright !default;
-$box-shadow-focus: 0 0 0 3px rgb(var(--color-dark-3) 0.3) !default;
+$box-shadow-focus: 0 0 0 3px RGB(var(--color-dark-3) 0.3) !default;
 $box-shadow-focus-large: 0 0 0 6px var(--color-primary)-light !default;
 $box-shadow-error: 0 0 0 3px var(--color-status-critical)-lighter !default;
 $box-shadow-ok: 0 0 0 3px var(--color-status-ok-lighter) !default;
@@ -217,47 +215,47 @@ $dropdown-item-height: 50px !default;
 
 .z-depth-1 {
   box-shadow:
-    0 2px 2px 0 rgb(91 91 101 / 14%),
-    0 3px 1px -2px rgb(91 91 101 / 12%),
-    0 1px 5px 0 rgb(91 91 101 / 20%);
+    0 2px 2px 0 RGB(91 91 101 / 14%),
+    0 3px 1px -2px RGB(91 91 101 / 12%),
+    0 1px 5px 0 RGB(91 91 101 / 20%);
 }
 
 .z-depth-1-half {
   box-shadow:
-    0 3px 3px 0 rgb(91 91 101 / 14%),
-    0 1px 7px 0 rgb(91 91 101 / 12%),
-    0 3px 1px -1px rgb(91 91 101 / 20%);
+    0 3px 3px 0 RGB(91 91 101 / 14%),
+    0 1px 7px 0 RGB(91 91 101 / 12%),
+    0 3px 1px -1px RGB(91 91 101 / 20%);
 }
 
 /* 6dp elevation modified */
 
 .z-depth-2 {
-  box-shadow: 2px 2px 0 0 rgb(50 52 60 / 90%);
+  box-shadow: 2px 2px 0 0 RGB(50 52 60 / 90%);
 }
 
 /* 12dp elevation modified */
 
 .z-depth-3 {
   box-shadow:
-    0 8px 17px 2px rgb(91 91 101 / 14%),
-    0 3px 14px 2px rgb(91 91 101 / 12%),
-    0 5px 5px -3px rgb(91 91 101 / 20%);
+    0 8px 17px 2px RGB(91 91 101 / 14%),
+    0 3px 14px 2px RGB(91 91 101 / 12%),
+    0 5px 5px -3px RGB(91 91 101 / 20%);
 }
 
 /* 16dp elevation */
 
 .z-depth-4 {
   box-shadow:
-    0 16px 24px 2px rgb(91 91 101 / 14%),
-    0 6px 30px 5px rgb(91 91 101 / 12%),
-    0 8px 10px -7px rgb(91 91 101 / 20%);
+    0 16px 24px 2px RGB(91 91 101 / 14%),
+    0 6px 30px 5px RGB(91 91 101 / 12%),
+    0 8px 10px -7px RGB(91 91 101 / 20%);
 }
 
 /* 24dp elevation */
 
 .z-depth-5 {
   box-shadow:
-    0 24px 38px 3px rgb(91 91 101 / 14%),
-    0 9px 46px 8px rgb(91 91 101 / 12%),
-    0 11px 15px -7px rgb(91 91 101 / 20%);
+    0 24px 38px 3px RGB(91 91 101 / 14%),
+    0 9px 46px 8px RGB(91 91 101 / 12%),
+    0 11px 15px -7px RGB(91 91 101 / 20%);
 }

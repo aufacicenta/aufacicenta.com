@@ -76,11 +76,11 @@
     "inquirer-directory": "^2.2.0",
     "plop": "^4.0.1",
     "postcss": "^8.4.31",
-    "sass": "^1.63.6",
+    "sass": "^1.77.6",
     "sass-loader": "^12.3.0",
     "string-width": "4.1.0",
     "tslib": "^2.6.2",
-    "typed-scss-modules": "^4.1.1",
+    "typed-scss-modules": "^8.0.1",
     "typescript": "^5.2.2",
     "wrap-ansi": "7.0.0"
   },

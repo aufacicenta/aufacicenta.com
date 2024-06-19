@@ -3,13 +3,13 @@
 
 .card {
   @include margin;
-  border: 1px solid var(--color-dark-9);
+  border: 1px solid var(--color-dark-7);
   border-radius: $border-radius-card;
-  background-color: var(--color-background-contrast);
+  background-color: var(--card-color-background);
 
   &__background-grain {
     [class*="card__content"] {
-      background-image: url(/ui/card/bg-grain.png);
+      background-image: url("/ui/card/bg-grain.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -35,7 +35,7 @@
     border-radius: 0.875rem;
     overflow: hidden;
     background-image: linear-gradient(to right, var(--color-background-contrast), var(--color-background));
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
 
     &--child {
       pointer-events: none;
